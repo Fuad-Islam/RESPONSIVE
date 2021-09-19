@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.containner {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+.topberwraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topber-con-one {
+  display: inline-flex;
+  width: 564px;
+
+  align-items: center;
+  font-size: 16px;
+}
+
+ul.main li {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 15px; /* padding: 0px 15px; */
+  padding: 15px 0px;
+}
+
+section#topber {
+  background: #106eea;
+}
+
+.topber-con-three {
+  width: 146px;
+  text-align: right;
+}
+
+ul.main li a i {
+  color: white;
+}
+
+.phone a {
+  color: white;
+  text-decoration: none;
+}
+
+.email a {
+  color: white;
+  font-family: arial;
+  margin-right: 43px;
+  text-decoration: none;
+}
+
+.phone a i {
+  margin-right: 8px;
+}
+
+.email a i {
+  margin-right: 5px;
+}
+.topber-con-two span {
+  color: white;
+  font-size: 16px;
+  font-family: arial;
+
+  display: block;
+  margin-top: 14px;
+}
+.mainmenuwraper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  width: 166px;
+}
+
+.navmenu {
+  width: 830px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.logo {
+  width: 308px;
+  margin-top: 22px;
+}
+
+ul.menuitem li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.menuitem li a {
+  color: #484444;
+  display: block;
+  padding: 33px 18px;
+  text-decoration: none;
+  font-family: arial;
+  font-weight: 500;
+  /* position: relative; */
+}
+.srachmenu {
+  margin-top: 3px;
+
+  font-size: 25px;
+}
+ul.submenu {
+  display: table-caption;
+
+  width: 262px;
+
+  /* background: #106eea; */
+
+  position: absolute;
+
+  top: 84px;
+
+  left: -2px;
+
+  z-index: 2222;
+
+  transform-origin: top;
+
+  transform: scale(0);
+
+  transition: 0.5s;
+}
+
+ul.submenu li {
+  width: 225px;
+  background: #106eea;
+}
+
+ul.submenu li a {
+  color: white;
+  padding: 16px 22px;
+  display: block;
+}
+ul.menuitem li {
+  position: relative;
+}
+
+ul.menuitem li:hover ul.submenu {
+  transform: scale(1);
+}

@@ -1,0 +1,120 @@
+@media (max-width: 992px) {
+  section#topber {
+    display: none !important;
+  }
+  i.fas.fa-search {
+    display: none;
+  }
+  .mainmenuwraper {
+    display: inherit;
+  }
+
+  ul.menuitem li {
+    display: inherit;
+  }
+
+  ul.menuitem li a {
+    padding: 18px;
+    color: White;
+  }
+  ul.menuitem li a span {
+    float: right !important;
+  }
+  ul.menuitem li a:hover {
+    background: lightslategray;
+  }
+
+  .navmenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 55555;
+    width: 97%;
+    align-items: unset;
+
+    height: 100vh;
+  }
+
+  ul.menuitem {
+    width: 300px;
+    background: #106eea;
+    transform: translate(-300px);
+    transition: 1s linear;
+  }
+
+  .showmenu {
+    transform: translate(0) !important;
+  }
+
+  .srachmenu {
+    margin-top: 14px;
+  }
+
+  i.fa.fa-bars {
+    display: unset !important;
+  }
+
+  ul.submenu {
+    position: absolute;
+
+    transform: scaleY(0);
+
+    top: 54px;
+  }
+
+  ul.submenu li {
+    width: 300px;
+    background: #094ca5;
+  }
+  .logo {
+    width: 308px;
+    margin-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  ul.menuitem li:hover ul.submenu {
+    transform: translate(-300px);
+  }
+
+  .showSubMenu {
+    transform: scaleY(1) !important;
+    position: static !important;
+    opacity: 1 !important;
+  }
+
+  span {
+    display: inherit !important;
+  }
+}
+
+@media only screen and (min-width: 768) and (max-width: 992px) {
+  .containner {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+  .containner {
+    width: 85%;
+  }
+}
+@media (max-width: 575px) {
+  .containner {
+    width: 85%;
+  }
+}
+
+#open-menu {
+  border: none;
+  font-size: 18px;
+  background: none;
+  cursor: pointer;
+}
+
+i.fa.fa-bars {
+  display: none;
+}
+
+span {
+  display: none;
+}
